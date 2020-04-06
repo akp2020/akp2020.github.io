@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Discovery</title>
-    <link rel="stylesheet" href="index.css" type="text/css" />
+    <link rel="preload" href="index.css" as="style" onload="this.rel='stylesheet'" />
   </head>
   <body>
     <div class="flex-container">
       <div>
-        <img src="src/img/baba.jpg" alt="" />
-        <img src="src/img/baba1.jpg" alt="" />
+        <link rel="preload" href="src/img/baba.jpg" as="image"/>
+        <link rel="preload" href="src/img/baba1.jpg" as="image"/>
       </div>
     </div>
   </body>

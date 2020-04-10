@@ -136,7 +136,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
 
-      this.title = 'angular-src';
+      this.title = 'Angular Discovery';
     };
 
     AppComponent.ɵfac = function AppComponent_Factory(t) {
